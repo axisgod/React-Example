@@ -1,7 +1,7 @@
 import './App.css';
-import './components/style.css'
 import ComponenteA from './components/ComponenteA';
-import ComponenteB from './components/ComponenteB';
+import Clock from './components/Clock';
+
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <ComponenteA nombre="Alex" apellido = "Rodrigez" email = "ArlRod@asdf.com " conectado = {true}/>
       <ComponenteA nombre = "Arturo" apellido="Sanchez" email = "ArtSan@asdf.com " conectado = {true}/>
       <ComponenteA nombre="Miguel" apellido = "Dominguez" email = "ArtSan@asdf.com " conectado = {false}/>
+      <Clock></Clock>
     </div>
   );
 }
